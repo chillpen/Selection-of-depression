@@ -6,14 +6,15 @@ from array import array
 
 class SelUnit(object):
     
-    X =0
-    Y =0
-    def __init__(self, x,y):
+    m_description = ""
+    
+    def __init__(self):
             '''
             Constructor
             '''
-            self.X = x
-            self.Y = y
-     
 
+            
+    def  SetDescription(self,description):
+            self.m_description = description
+     
      
